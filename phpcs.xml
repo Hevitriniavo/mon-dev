@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="MonFramework">
+    <description>Mes règles de formatage</description>
+    <rule ref="PSR2"/>
+    <file>src</file>
+
+    <rule ref="Generic.Arrays.DisallowLongArraySyntax"/>
+    <rule ref="Generic.Files.LineEndings">
+        <exclude-pattern>tests/Framework/AppTest.php</exclude-pattern>
+    </rule>
+    <arg name="colors"/>
+    <arg value="p"/>
+</ruleset>

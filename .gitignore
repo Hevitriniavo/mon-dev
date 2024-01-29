@@ -1,0 +1,8 @@
+# Ignorer le répertoire .idea/
+.idea/
+
+# Ignorer le répertoire vendor/
+vendor/
+
+# Ignorer le fichier composer.lock
+composer.lock
